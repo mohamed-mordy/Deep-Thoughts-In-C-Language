@@ -1,0 +1,62 @@
+static
+	* Inside a function, retains its value between calls.
+	* At the function level, visible only in this file.
+
+extern
+	* Applied to a function definition, has global scope(and is redundant)
+	* Applied to a variable, defined else where
+
+void
+	* As the return type of a function, does not return a value
+	* In pointer declaration, the type of a generic pointer
+	* In a parameter list, takes no parameter
+
+*
+	* The multiplication operator
+	* Applied to a pointer, indirection
+	* In a declaration, a pointer
+
+&
+	* Bitwise AND operator
+	* Address-of operator
+
+=
+	* Assignment operator
+
+==
+	* Comparison operator
+
+<=
+	* less-than-or-equal operator
+
+<<=
+	* Compound shift-lift Assignment operator
+
+<
+	* less-than operator
+	* left delimeter in #include directive
+
+()
+	* Enclose formal parameters in a function definition
+	* Make a function call
+	* Provide Expression precedence
+	* Convert (cast) value to a different type
+	* Define a macro with arguments
+	* Make a macro call with arguments
+	* Enclose the operand of the sizeof operator when it is a typename
+
+****************************************************************************************************
+
+a function returning a pointer to a function is allowed: int (* fun())();
+a function returning a pointer to an array is allowed: int(* fun())[];
+an array holding pointers to functions is allowed: int(*fun[])();
+an array can hold other arrays: int foo[][];
+
+
+
+****************************************************************************************************
+
+
+
+
+
